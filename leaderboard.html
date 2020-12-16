@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="css/leaderboard.css">
+        <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+    </head>
+
+    <body>
+        <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-firestore.js"></script>
+        <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+
+        <button id="goBack" onclick="goBack()">Back to game</button>
+        <table id="leaderboard">
+            <tr id="user">
+                <td is="userPosition">YOU:</td>
+                <td id="username"></td>
+                <td id="userScore"></td>
+            </tr>
+            <tr>
+                <th id="position">Rank</th>
+                <th id="name">Name</th>
+                <th id="score">Score</th>
+            </tr>
+        </table>
+        <script src="js/leaderboard.js"></script>
+    </body>
+</html>

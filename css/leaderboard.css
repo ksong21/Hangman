@@ -1,0 +1,49 @@
+#goBack {
+    width: 430px;
+    background-color:lightgreen;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 3vh;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    cursor: grab;
+    transition-duration: 0.1s;
+    font-family: "Comic Sans MS";
+}
+
+#goBack:hover {
+    background-color:rgba(6, 88, 41, 0.877);
+    color: white;
+}
+
+table {
+    font-size: 4.2vh;
+    text-align: left;
+    font-family: "Comic Sans MS";
+}
+
+#leaderboard {
+    border: 2px solid black;
+    margin: auto;
+    padding-left: 3vw;
+}
+
+#user {
+    transition-duration: 0.3s;
+}
+
+#userPositon, #username, #userScore {
+    padding-right: 3vw;
+    transition-duration: 0.3s;
+}
+
+#position, #name, #score {
+    padding-right: 3vw;
+}
+
+#name {
+    margin-left: 3vh;
+}

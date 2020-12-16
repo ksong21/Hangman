@@ -1,0 +1,113 @@
+#infoBox {
+    text-align: center;
+}
+
+#score {
+    font-size: 3vh;
+    transition-duration: 0.3s;
+    font-family: "Comic Sans MS";
+}
+
+#lives {
+    margin-top: -10px;
+    font-size: 3vh;
+    transition-duration: 0.3s;
+    font-family: "Comic Sans MS";
+}
+
+#hint {
+    position: absolute;
+    background-color: lightgreen;
+    position: absolute; 
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 0vh;
+    transition-duration: 0.3s;
+    font-family: "Comic Sans MS";
+}
+
+#image {
+    display: block;
+    margin: auto;
+    height: 40vh;
+    margin-top: -20px;
+}
+
+#reset {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: black;
+    background-color: rgba(255, 0, 0, 0.404);
+    border-radius: 10px;
+    padding: 1vh 1vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3vh;
+    border: 1px solid black;
+    cursor: grab;
+    transition-duration: 0.1s;
+    font-family: "Comic Sans MS";
+}
+
+#reset:hover {
+    background-color:rgba(124, 20, 20, 0.877);
+    color: white;
+}
+
+#showHint {
+    position: absolute;
+    top: 9vh;
+    right: 10px;
+    color: black;
+    background-color: lightgreen;
+    border-radius: 10px;
+    padding: 1vh 1vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3vh;
+    border: 1px solid black;
+    cursor: grab;
+    transition-duration: 0.1s;
+    font-family: "Comic Sans MS";
+}
+
+#showHint:hover {
+    background-color:seagreen;
+    color: white;
+}
+
+#word {
+    margin-top: -50px;
+    text-align: center;
+    font-size: 5vh;
+    transition-duration: 0.3s;
+    font-family: "Comic Sans MS";
+}
+
+#buttonContainer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    z-index: -1;
+}
+
+.buttons {
+    background-color:azure;
+    border: 2px solid black;
+    text-align: center;
+    padding: 1px;
+    font-size: 5vh;
+    width: 10vw;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition-duration: 0.3s;
+    font-family: "Comic Sans MS";
+}
+
+.buttons:hover {
+    background-color:rgb(23, 46, 46);
+    color: white;
+}
